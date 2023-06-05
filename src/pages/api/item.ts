@@ -2,7 +2,7 @@ import axios from 'axios'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 import { getAccessToken, getAuthTokenPath } from '.'
-import apiConfig from '../../config/api.config'
+import apiConfig from '../../../config/api.config'
 import type { OdDriveItem } from '../../types'
 import { mapAbsolutePath } from '../../utils/mapAbsolutePath'
 
