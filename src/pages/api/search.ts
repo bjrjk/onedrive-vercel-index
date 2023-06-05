@@ -3,8 +3,8 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 
 import { encodePath, getAccessToken, getAuthTokenPath } from '.'
 import { mapAbsolutePath } from '../../utils/mapAbsolutePath'
-import apiConfig from '../../config/api.config'
-import siteConfig from '../../config/site.config'
+import apiConfig from '../../../config/api.config'
+import siteConfig from '../../../config/site.config'
 import type { OdSearchResult } from '../../types'
 
 /**
